@@ -3,18 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Politique de Confidentialité — Ronds de Bois</title>
+<title>Politique de confidentialité — Ronds de Bois</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: 'Georgia', serif; background: #FBF6EE; color: #2C1A0E; line-height: 1.8; }
   header { background: linear-gradient(135deg, #2C1A0E, #6B3A1F); padding: 40px 24px; text-align: center; }
   header h1 { color: #E8A84C; font-size: 28px; margin-bottom: 6px; }
-  header p  { color: rgba(245,237,216,0.7); font-size: 14px; }
+  header p { color: rgba(245,237,216,0.7); font-size: 14px; }
   .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
   h2 { color: #6B3A1F; font-size: 20px; margin: 32px 0 12px; border-bottom: 2px solid #C8762A; padding-bottom: 6px; }
-  p  { margin-bottom: 14px; font-size: 15px; }
+  p { margin-bottom: 14px; font-size: 15px; }
   ul { margin: 10px 0 14px 24px; }
   li { margin-bottom: 8px; font-size: 15px; }
+  a { color: #C8762A; }
   .badge { display: inline-block; background: #C8762A; color: white; padding: 3px 10px; border-radius: 12px; font-size: 12px; margin-bottom: 20px; }
   footer { background: #2C1A0E; color: rgba(245,237,216,0.5); text-align: center; padding: 20px; font-size: 12px; margin-top: 60px; }
   .highlight { background: #F5EDD8; border-left: 4px solid #C8762A; padding: 14px 18px; border-radius: 0 8px 8px 0; margin: 16px 0; }
@@ -24,7 +25,7 @@
 
 <header>
   <h1>🪵 Ronds de Bois</h1>
-  <p>Politique de Confidentialité</p>
+  <p>Politique de confidentialité</p>
 </header>
 
 <div class="container">
@@ -34,67 +35,110 @@
   <p>La présente politique de confidentialité décrit comment l'application <strong>Ronds de Bois</strong>, développée par <strong>Yoan Veclain</strong> (SARL Veclain), collecte, utilise et protège vos informations lors de l'utilisation de l'application mobile.</p>
 
   <div class="highlight">
-    <strong>En résumé :</strong> Ronds de Bois ne collecte aucune donnée personnelle par défaut. La seule exception est la position GPS d'un chantier, capturée uniquement si vous appuyez vous-même sur le bouton 📍 — jamais suivie en arrière-plan. Toutes vos données restent sur votre appareil.
+    <strong>En résumé :</strong> vos données métier restent stockées localement sur votre appareil. La position GPS d'un chantier est enregistrée uniquement à votre demande et n'est jamais suivie en arrière-plan. Pour vérifier l'accès aux fonctionnalités Pro, l'application utilise RevenueCat, qui attribue un identifiant technique anonyme à l'installation. En cas d'achat, l'historique de l'abonnement est traité par Google Play et RevenueCat. Vos coordonnées bancaires restent exclusivement gérées par Google Play.
   </div>
 
   <h2>1. Informations collectées</h2>
-  <p>L'application <strong>Ronds de Bois</strong> fonctionne entièrement en local sur votre appareil. Les données enregistrées sont :</p>
+  <p>L'application <strong>Ronds de Bois</strong> enregistre localement sur votre appareil :</p>
   <ul>
-    <li>Les billes de bois et articles que vous saisissez (essence, dimensions, prix, quantités)</li>
+    <li>Les billes de bois et articles que vous saisissez : essence, dimensions, prix et quantités</li>
     <li>Les références de chantier et numéros de grumes que vous entrez</li>
-    <li>La position GPS d'un chantier, uniquement si vous choisissez de la capturer (voir section 6)</li>
-    <li>Les informations de votre entreprise et de vos clients que vous saisissez pour vos exports PDF</li>
-    <li>Vos préférences (langue, unités, paramètres)</li>
+    <li>La position GPS d'un chantier, uniquement si vous choisissez de la capturer</li>
+    <li>Les informations de votre entreprise et de vos clients saisies pour les exports PDF</li>
+    <li>Vos préférences : langue, unités et paramètres</li>
   </ul>
-  <p>Ces données sont stockées <strong>uniquement sur votre appareil</strong> via le stockage local de l'application. Elles ne sont jamais transmises à nos serveurs — nous n'en possédons pas.</p>
+
+  <p>Ces données métier sont stockées uniquement sur votre appareil et ne sont jamais envoyées à RevenueCat.</p>
+
+  <p>Pour gérer l'accès à Ronds de Bois Pro, RevenueCat peut traiter :</p>
+  <ul>
+    <li>Un identifiant technique anonyme associé à l'installation de l'application</li>
+    <li>Le produit acheté et la boutique utilisée</li>
+    <li>Les dates d'achat, de renouvellement et d'expiration</li>
+    <li>L'état actif, expiré ou annulé de l'abonnement</li>
+  </ul>
 
   <h2>2. Utilisation des données</h2>
-  <p>Les données que vous saisissez dans l'application sont utilisées exclusivement pour :</p>
+  <p>Les données métier que vous saisissez sont utilisées exclusivement pour :</p>
   <ul>
-    <li>Afficher et gérer votre stock de billes et de bois scié</li>
+    <li>Afficher et gérer vos chantiers, billes et bois sciés</li>
     <li>Calculer les volumes, prix HT/TVA/TTC et estimations de poids</li>
-    <li>Géolocaliser vos chantiers et vous permettre d'y naviguer</li>
+    <li>Géolocaliser vos chantiers et permettre la navigation GPS</li>
     <li>Générer des exports PDF et CSV pour vos documents professionnels</li>
   </ul>
 
-  <h2>3. Partage des données</h2>
-  <p>Ronds de Bois <strong>ne partage aucune donnée</strong> avec des tiers. Aucune information n'est vendue, louée ou transmise à des partenaires commerciaux, annonceurs ou autres organisations. Les coordonnées GPS d'un chantier n'apparaissent dans un PDF exporté que si vous cochez explicitement cette option au moment de l'export — c'est alors vous, et vous seul, qui choisissez de les partager avec le destinataire de ce PDF.</p>
+  <p>Les données relatives à l'abonnement sont utilisées pour :</p>
+  <ul>
+    <li>Vérifier et activer l'accès aux fonctionnalités Pro</li>
+    <li>Restaurer un abonnement déjà acheté</li>
+    <li>Assurer le fonctionnement et l'analyse technique de l'abonnement</li>
+  </ul>
+
+  <h2>3. Transmission à des prestataires techniques</h2>
+  <p>Ronds de Bois ne vend, ne loue et ne transmet aucune donnée à des annonceurs ou partenaires commerciaux.</p>
+
+  <p>Les données métier saisies dans l'application restent sur votre appareil. Seules les informations nécessaires à la gestion de l'abonnement sont transmises à <strong>Google Play</strong> et à <strong>RevenueCat</strong>, qui interviennent comme prestataires techniques.</p>
+
+  <p>Les coordonnées GPS d'un chantier n'apparaissent dans un PDF que si vous choisissez explicitement de les inclure. Vous décidez alors vous-même de partager ce document avec son destinataire.</p>
 
   <h2>4. Sécurité des données</h2>
-  <p>Vos données sont stockées localement sur votre appareil. La sécurité de ces données dépend des mesures de sécurité de votre appareil (code PIN, empreinte digitale, etc.). Nous vous recommandons de :</p>
+  <p>Vos données métier sont stockées localement sur votre appareil. Leur sécurité dépend notamment des protections de votre téléphone. Nous vous recommandons de :</p>
   <ul>
-    <li>Protéger votre appareil avec un code ou une biométrie</li>
-    <li>Effectuer des sauvegardes régulières via les outils de votre appareil</li>
+    <li>Protéger votre appareil avec un code ou une authentification biométrique</li>
+    <li>Effectuer des sauvegardes régulières avec les outils de votre appareil</li>
   </ul>
+
+  <p>Les informations techniques liées à l'abonnement sont chiffrées pendant leur transmission.</p>
 
   <h2>5. Abonnement et paiements</h2>
-  <p>L'application propose un abonnement mensuel géré entièrement par <strong>Google Play</strong>. Les informations de paiement sont traitées directement par Google et sont soumises à la <a href="https://policies.google.com/privacy" style="color:#C8762A">politique de confidentialité de Google</a>. Ronds de Bois n'a pas accès à vos informations de paiement.</p>
+  <p>L'application propose un abonnement mensuel géré et facturé par <strong>Google Play</strong>. Ronds de Bois et RevenueCat n'ont jamais accès au numéro de votre carte bancaire ni à vos coordonnées bancaires.</p>
+
+  <p><strong>RevenueCat</strong> intervient comme prestataire technique afin de vérifier l'abonnement et d'activer les fonctionnalités Pro. RevenueCat traite un identifiant utilisateur anonyme ainsi que l'historique de l'abonnement : produit acheté, dates d'achat, de renouvellement et d'expiration et état de l'abonnement.</p>
+
+  <p>Ce traitement est nécessaire à l'exécution et au fonctionnement de l'abonnement. Ces informations ne sont pas utilisées pour afficher de la publicité.</p>
+
+  <p>RevenueCat indique héberger les données de son service auprès d'Amazon Web Services aux États-Unis et encadrer les transferts internationaux conformément aux règles applicables.</p>
+
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Politique de confidentialité de Google</a></li>
+    <li><a href="https://www.revenuecat.com/privacy/">Politique de confidentialité de RevenueCat</a></li>
+  </ul>
 
   <h2>6. Position GPS</h2>
-  <p>L'application demande l'accès à votre position <strong>uniquement lorsque vous appuyez sur le bouton 📍</strong> pour géolocaliser un chantier. Concrètement :</p>
+  <p>L'application demande l'accès à votre position <strong>uniquement lorsque vous appuyez sur le bouton 📍</strong> pour géolocaliser un chantier :</p>
   <ul>
-    <li>La position n'est utilisée qu'au premier plan, jamais suivie en arrière-plan.</li>
-    <li>Elle est enregistrée uniquement sur votre appareil.</li>
-    <li>Vous pouvez supprimer la position d'un chantier à tout moment (onglet Carte → icône 🗑️).</li>
-    <li>Refuser l'accès à la position n'empêche pas d'utiliser le reste de l'application.</li>
+    <li>La position est utilisée uniquement au premier plan et jamais suivie en arrière-plan</li>
+    <li>Elle est enregistrée uniquement sur votre appareil</li>
+    <li>Vous pouvez supprimer la position d'un chantier à tout moment</li>
+    <li>Le refus de l'autorisation n'empêche pas l'utilisation des autres fonctions</li>
   </ul>
-  <p>L'application utilise le <strong>SDK Google Maps</strong> pour afficher la carte des chantiers. Ce SDK peut transmettre automatiquement à Google certaines données techniques (version du système, identifiant du SDK, adresse IP, données de plantage), indépendamment des données que vous saisissez. Voir la <a href="https://policies.google.com/privacy" style="color:#C8762A">politique de confidentialité de Google</a>.</p>
+
+  <p>L'application utilise le <strong>SDK Google Maps</strong> pour afficher la carte. Ce service peut transmettre automatiquement à Google certaines informations techniques telles que l'adresse IP, la version du système ou des informations de diagnostic, conformément à la <a href="https://policies.google.com/privacy">politique de confidentialité de Google</a>.</p>
 
   <h2>7. Permissions de l'application</h2>
-  <p>L'application accède uniquement à :</p>
+  <p>La seule permission sensible demandée par l'application est :</p>
   <ul>
-    <li><strong>Votre position</strong>, au premier plan et sur demande explicite (voir section 6)</li>
+    <li><strong>Votre position</strong>, au premier plan et uniquement après une action explicite de votre part</li>
   </ul>
-  <p>Elle n'accède à aucune autre permission sensible : pas de caméra, pas de microphone, pas de contacts ni de calendrier, pas de photos ni de fichiers.</p>
+
+  <p>L'application n'accède pas à votre caméra, votre microphone, vos contacts, votre calendrier ou vos photos.</p>
 
   <h2>8. Enfants</h2>
   <p>L'application <strong>Ronds de Bois</strong> n'est pas destinée aux enfants de moins de 13 ans. Nous ne collectons pas sciemment de données personnelles auprès d'enfants.</p>
 
-  <h2>9. Modifications de cette politique</h2>
-  <p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Les modifications seront publiées sur cette page avec une date de mise à jour. Nous vous encourageons à consulter régulièrement cette page.</p>
+  <h2>9. Conservation et suppression</h2>
+  <p>Les données métier enregistrées localement peuvent être supprimées directement dans l'application ou en supprimant les données de l'application depuis les réglages de votre appareil.</p>
 
-  <h2>10. Contact</h2>
-  <p>Pour toute question concernant cette politique de confidentialité, ou pour demander la suppression de vos données, vous pouvez nous contacter :</p>
+  <p>Les informations relatives aux transactions peuvent être conservées par Google Play et RevenueCat pendant la durée nécessaire au fonctionnement de l'abonnement et au respect de leurs obligations légales.</p>
+
+  <p>Pour demander la suppression des données techniques associées à RevenueCat, vous pouvez nous contacter à l'adresse indiquée ci-dessous. Nous vous indiquerons les informations nécessaires pour retrouver votre identifiant anonyme.</p>
+
+  <h2>10. Modifications de cette politique</h2>
+  <p>Nous pouvons modifier cette politique de confidentialité afin de tenir compte de l'évolution de l'application ou des obligations légales. Toute modification sera publiée sur cette page avec sa date de mise à jour.</p>
+
+  <h2>11. Contact</h2>
+  <p>Pour toute question concernant cette politique ou pour exercer vos droits, vous pouvez nous contacter :</p>
+
   <div class="highlight">
     <strong>Yoan Veclain — SARL Veclain</strong><br>
     Email : yoan.veclain@hotmail.fr<br>
@@ -102,8 +146,8 @@
     Pays : France
   </div>
 
-  <h2>11. Droit applicable</h2>
-  <p>Cette politique de confidentialité est régie par le droit français et le Règlement Général sur la Protection des Données (RGPD) de l'Union Européenne.</p>
+  <h2>12. Droit applicable</h2>
+  <p>La SARL Veclain est responsable du traitement des données décrit dans cette politique. Cette politique est régie par le droit français et par le Règlement Général sur la Protection des Données de l'Union européenne.</p>
 
 </div>
 
